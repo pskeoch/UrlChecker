@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+}
+#col1 {
+    width: 160px;
+}
+#col2 {
+    width: 160px;
+}
+#col3 {
+    width: 220px;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+a:visited {
+    color: tomato;
+}

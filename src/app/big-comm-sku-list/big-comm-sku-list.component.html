@@ -1,0 +1,41 @@
+<button id="allLinks" (click)="setRunLinkChecking(1)">Check all Title URLs</button>
+
+<ul class="ulhead">
+    <li id="col1">BigCommerce id</li><li id="col2">BigCommerce SKU</li><li id="col3">Product URL</li><li id="col4"></li><li id="col5">URL Status</li>
+</ul>
+<ul class="ulrow-odd" *ngFor="let product of productList">
+    <app-otp-db-title-lookup [product]="product" [runLinkCheck]="linkCheckStatus"></app-otp-db-title-lookup>
+    
+</ul>
+
+<!-- <ul>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    <li>TP-51946 ||| volvo.otpubs.com/TP-51946</li>
+    
+</ul> -->

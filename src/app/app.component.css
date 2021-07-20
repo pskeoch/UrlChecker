@@ -1,0 +1,44 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+app-big-comm-sku-list {
+    display: block;
+    position: absolute;
+    min-height: 400px;
+    min-width: 1100px;
+    height: 26%;
+    width: 34%;
+    color: dimgrey;
+    border-radius: 12px;
+    background-color: mintcream;
+    font-size: 12pt;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+a:visited {
+    color: tomato;
+}

@@ -14,6 +14,8 @@ export class OtpDBTitleLookupComponent implements OnInit {
 
   lookupURL: string = '';
   linkCheckStatus: number = 0;
+  urlExists: string = '#008100';
+  show: boolean = true;
 
   constructor(private titleLookup: TitleLookupService) { }
 
@@ -27,6 +29,8 @@ export class OtpDBTitleLookupComponent implements OnInit {
     } else {
       console.log("no product URL found");
       this.lookupURL = 'No lookup record for this SKU';
+      this.urlExists = '#ff0000';
+      this.show = false;
     }
   }
 

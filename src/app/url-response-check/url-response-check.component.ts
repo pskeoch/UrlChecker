@@ -28,7 +28,7 @@ export class UrlResponseCheckComponent implements OnInit {
   setStatusIndicator(status: number) {
     this.httpStatus = status;
     if (status == 200) {
-      this.statusIndicator = '#00ff00';
+      this.statusIndicator = '#008100';
     } else if (status == 404) {
       this.statusIndicator = '#ff0000';
     }

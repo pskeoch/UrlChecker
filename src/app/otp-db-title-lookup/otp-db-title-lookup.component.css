@@ -20,7 +20,7 @@ li {
 
 a {
     text-decoration: none;
-    color: tomato;
+    color: '#008100';
 }
 
 a:hover{
@@ -28,5 +28,5 @@ a:hover{
 }
 
 a:visited {
-    color: tomato;
+    color: '#008100';
 }

@@ -13,7 +13,7 @@ export class TitleLookupService {
 
   constructor(private http: HttpClient) { }
 
-  apiGetTitleLookup = "https://titleLookup.io"; //false site
+  apiGetTitleLookup = "https://originaltechnical.com/getTitleLookup"; //false site
 
   OTP_getLookup(id: number): Observable<otpTitleLookupResponse> {
     return this.http.post<otpTitleLookupResponse>(this.apiGetTitleLookup, {id: id})
